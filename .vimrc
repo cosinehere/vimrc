@@ -17,6 +17,7 @@ Plug 'junegunn/vim-easy-align'
 Plug 'vim-syntastic/syntastic'
 Plug 'scrooloose/nerdtree', { 'on': 'NERDTreeToggle' }
 Plug 'vim-airline/vim-airline'
+Plug 'jiangmiao/auto-pairs'
 call plug#end()
 
 set statusline+=%#warningmsg#
