@@ -6,6 +6,10 @@ set ruler
 set showcmd
 set showmatch
 
+set t_Co=256
+set laststatus=2
+set backspace=indent,eol,start
+
 syntax enable
 colorscheme monokai
 syntax on
@@ -18,6 +22,8 @@ Plug 'vim-syntastic/syntastic'
 Plug 'scrooloose/nerdtree', { 'on': 'NERDTreeToggle' }
 Plug 'vim-airline/vim-airline'
 Plug 'jiangmiao/auto-pairs'
+Plug 'xavierd/clang_complete'
+Plug 'preservim/tagbar'
 call plug#end()
 
 set statusline+=%#warningmsg#
@@ -29,5 +35,5 @@ let g:syntastic_auto_loc_list = 1
 let g:syntastic_check_on_open = 1
 let g:syntastic_check_on_wq = 0
 
-set t_Co=256
-set laststatus=2
+let g:clang_use_library = 1
+let g:clang_library_path='/usr/lib/llvm-3.8/lib'
