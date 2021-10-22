@@ -1270,7 +1270,9 @@
       }
     }
   },
-  "clangd.path": "/home/cosine/.config/coc/extensions/coc-clangd-data/install/12.0.0/clangd_12.0.0/bin/clangd",
-  "coc.preferences.colorSupport": false,
-  "suggest.noselect": false
+  "coc.preferences.colorSupport": true,
+  "suggest.noselect": false,
+  "explorer.width": 30,
+  "explorer.file.showHiddenFiles": true,
+  "explorer.icon.enableNerdfont": true
 }
